@@ -1,0 +1,20 @@
+{
+  "name": "@safetnsr/autoresearch-lens",
+  "version": "0.1.0",
+  "description": "Instrumentation layer for autonomous AI research loops",
+  "type": "module",
+  "bin": {
+    "lens": "./bin/lens.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test src/**/*.test.ts"
+  },
+  "keywords": ["autoresearch", "ml", "autonomous", "research", "telemetry"],
+  "author": "safetnsr",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}
