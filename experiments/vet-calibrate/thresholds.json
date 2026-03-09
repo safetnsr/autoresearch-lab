@@ -1,0 +1,43 @@
+{
+  "_doc": "Iteration 3: original penalties restored + completeness check added. Lower deps weight.",
+  "grades": {
+    "A": 90,
+    "B": 75,
+    "C": 60,
+    "D": 40
+  },
+  "category_weights": {
+    "security": 0.25,
+    "integrity": 0.35,
+    "debt": 0.30,
+    "deps": 0.10
+  },
+  "integrity": {
+    "hallucinated_import_penalty": 10,
+    "empty_catch_error_penalty": 8,
+    "empty_catch_warning_penalty": 3,
+    "stubbed_test_penalty": 5,
+    "unhandled_async_penalty": 3,
+    "unhandled_async_cap": 15
+  },
+  "debt": {
+    "duplicate_penalty": 8,
+    "duplicate_cap": 50,
+    "orphan_penalty": 5,
+    "orphan_cap": 30,
+    "wrapper_penalty": 3,
+    "wrapper_cap": 15,
+    "naming_drift_penalty": 2,
+    "naming_drift_cap": 10
+  },
+  "deps": {
+    "error_penalty": 20,
+    "warning_penalty": 5
+  },
+  "ready": {
+    "error_penalty": 30,
+    "warning_penalty": 15,
+    "info_penalty": 3
+  },
+  "score_floor_non_security": 20
+}

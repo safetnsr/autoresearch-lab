@@ -1,0 +1,50 @@
+[
+  {"repo": "sindresorhus/ky", "expected_quality": "high", "stars_tier": "top", "reason": "clean, minimal, well-tested HTTP client"},
+  {"repo": "tj/commander.js", "expected_quality": "high", "stars_tier": "top", "reason": "gold standard CLI framework"},
+  {"repo": "chalk/chalk", "expected_quality": "high", "stars_tier": "top", "reason": "minimal, focused, well-maintained"},
+  {"repo": "micromatch/micromatch", "expected_quality": "high", "stars_tier": "top", "reason": "battle-tested glob matching"},
+  {"repo": "unjs/nitro", "expected_quality": "high", "stars_tier": "top", "reason": "well-architected server framework"},
+  {"repo": "unjs/ofetch", "expected_quality": "high", "stars_tier": "top", "reason": "clean fetch wrapper"},
+  {"repo": "colinhacks/zod", "expected_quality": "high", "stars_tier": "top", "reason": "excellent TypeScript, thorough tests"},
+  {"repo": "drizzle-team/drizzle-orm", "expected_quality": "high", "stars_tier": "top", "reason": "modern ORM, strong types"},
+  {"repo": "honojs/hono", "expected_quality": "high", "stars_tier": "top", "reason": "clean web framework, good patterns"},
+  {"repo": "pinojs/pino", "expected_quality": "high", "stars_tier": "top", "reason": "fast JSON logger, clean code"},
+  {"repo": "sindresorhus/p-limit", "expected_quality": "high", "stars_tier": "mid", "reason": "tiny, focused, clean concurrency primitive"},
+  {"repo": "antfu/ni", "expected_quality": "high", "stars_tier": "mid", "reason": "minimal, clean utility"},
+  {"repo": "biomejs/biome", "expected_quality": "high", "stars_tier": "top", "reason": "professional toolchain"},
+  {"repo": "privatenumber/tsx", "expected_quality": "high", "stars_tier": "mid", "reason": "clean TypeScript runner"},
+  {"repo": "paulmillr/noble-curves", "expected_quality": "high", "stars_tier": "mid", "reason": "security-critical, audited crypto"},
+
+  {"repo": "expressjs/express", "expected_quality": "medium", "stars_tier": "top", "reason": "legacy patterns, but maintained"},
+  {"repo": "lodash/lodash", "expected_quality": "medium", "stars_tier": "top", "reason": "huge util lib, some debt"},
+  {"repo": "moment/moment", "expected_quality": "medium", "stars_tier": "top", "reason": "deprecated, known issues"},
+  {"repo": "request/request", "expected_quality": "low", "stars_tier": "top", "reason": "deprecated, abandoned"},
+  {"repo": "jprichardson/node-fs-extra", "expected_quality": "medium", "stars_tier": "mid", "reason": "useful but aging"},
+
+  {"repo": "ai/nanoid", "expected_quality": "high", "stars_tier": "top", "reason": "tiny ID generator, clean JS"},
+  {"repo": "sindresorhus/ora", "expected_quality": "high", "stars_tier": "mid", "reason": "clean terminal spinner"},
+  {"repo": "unjs/consola", "expected_quality": "high", "stars_tier": "mid", "reason": "elegant console wrapper"},
+
+  {"repo": "safetnsr/vet", "expected_quality": "medium", "stars_tier": "low", "reason": "our own tool, calibration reference"},
+  {"repo": "safetnsr/pinch", "expected_quality": "medium", "stars_tier": "low", "reason": "our own tool, calibration reference"},
+  {"repo": "safetnsr/model-graveyard", "expected_quality": "medium", "stars_tier": "low", "reason": "simple utility"},
+
+  {"repo": "sindresorhus/globby", "expected_quality": "high", "stars_tier": "mid", "reason": "clean glob utility"},
+  {"repo": "lukeed/mri", "expected_quality": "high", "stars_tier": "mid", "reason": "tiny arg parser, minimal"},
+  {"repo": "unjs/defu", "expected_quality": "high", "stars_tier": "mid", "reason": "small deep defaults utility"},
+  {"repo": "egoist/tsup", "expected_quality": "high", "stars_tier": "mid", "reason": "clean TS bundler"},
+
+  {"repo": "kelseyhightower/nocode", "expected_quality": "low", "stars_tier": "top", "reason": "joke repo, no real code"},
+  {"repo": "nicolo-ribaudo/tc39-proposal-await-dictionary", "expected_quality": "low", "stars_tier": "low", "reason": "TC39 proposal, almost no code"},
+  {"repo": "nicedoc/nicedoc.io", "expected_quality": "low", "stars_tier": "low", "reason": "abandoned, sparse JS"},
+
+  {"repo": "enquirer/enquirer", "expected_quality": "medium", "stars_tier": "mid", "reason": "prompt lib, some aging patterns"},
+  {"repo": "isaacs/minimatch", "expected_quality": "medium", "stars_tier": "mid", "reason": "old but maintained glob matcher"},
+
+  {"repo": "developit/preact", "expected_quality": "high", "stars_tier": "top", "reason": "minimal React alternative, clean"},
+  {"repo": "lukeed/polka", "expected_quality": "high", "stars_tier": "mid", "reason": "micro web server, minimal"},
+  {"repo": "lukeed/kleur", "expected_quality": "high", "stars_tier": "mid", "reason": "tiny, focused terminal colors"},
+  {"repo": "sindresorhus/execa", "expected_quality": "high", "stars_tier": "top", "reason": "clean process execution"},
+  {"repo": "sindresorhus/got", "expected_quality": "high", "stars_tier": "top", "reason": "well-maintained HTTP client"},
+  {"repo": "sindresorhus/p-queue", "expected_quality": "high", "stars_tier": "mid", "reason": "focused concurrency primitive"}
+]
